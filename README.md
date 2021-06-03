@@ -28,3 +28,7 @@ npm run build
 ```
 
 Run the build with `npm run start` (uses [sirv](https://github.com/lukeed/sirv))
+
+## Demo
+
+Try [svelte calc](http://sveltecalc.surge.sh/) out
