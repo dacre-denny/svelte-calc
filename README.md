@@ -1,6 +1,6 @@
 # svelte calc
 
-Experiment with svelte.: `svelte. calc`
+First experiment with svelte
 
 ## Running development
 
