@@ -151,20 +151,18 @@
 
 </script>
 
-<div>	
-	<Display display={display} result={result} />
+<Display display={display} result={result} />
 
-	<div class="buttons">
-		<button class="additon" on:click={() => onOperator(Add)}>+</button>
-		<button class="subtract" on:click={() => onOperator(Subtract)}>-</button>
-		<button class="multiply" on:click={() => onOperator(Multiply)}>×</button>
-		<button class="divide" on:click={() => onOperator(Divide)}>÷</button>
-		{#each digits as digit}
-			<button class="white" on:click={() => onDigit(digit)}>{digit}</button>
-		{/each}
-		<button class="white" on:click={() => onDecimal()}>.</button>
-		<button class="white" on:click={onClear}>C</button>
-	</div>
+<div class="buttons">
+	<button class="additon" on:click={() => onOperator(Add)}>+</button>
+	<button class="subtract" on:click={() => onOperator(Subtract)}>-</button>
+	<button class="multiply" on:click={() => onOperator(Multiply)}>×</button>
+	<button class="divide" on:click={() => onOperator(Divide)}>÷</button>
+	{#each digits as digit}
+		<button class="white" on:click={() => onDigit(digit)}>{digit}</button>
+	{/each}
+	<button class="white" on:click={() => onDecimal()}>.</button>
+	<button class="white" on:click={onClear}>C</button>
 </div>
 
 <style>

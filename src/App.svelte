@@ -1,6 +1,6 @@
 <script>
 	import Header from './Header.svelte'
-	import Calculator from './Display.svelte'
+	import Calculator from './Calculator.svelte'
 </script>
 
 <main>
